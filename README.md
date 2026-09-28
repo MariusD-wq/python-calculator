@@ -15,10 +15,10 @@ Install Python 3.13 or later, then download or clone this repository. Create a P
 ```python
 from calculator import add, subtract, multiply, divide
 
-print(add(10, 5))       # 15
+print(add(10, 5))  # 15
 print(subtract(10, 5))  # 5
 print(multiply(10, 5))  # 50
-print(divide(10, 5))    # 2.0
+print(divide(10, 5))  # 2.0
 ```
 
 Calling `divide(10, 0)` raises `ValueError` with the message `Cannot divide by zero.`

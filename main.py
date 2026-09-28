@@ -1,6 +1,6 @@
-def main():
-    print("Hello from python-calculator!")
+from calculator import add, divide, multiply, subtract
 
-
-if __name__ == "__main__":
-    main()
+print(add(10, 5))
+print(subtract(10, 5))
+print(multiply(10, 5))
+print(divide(10, 5))
